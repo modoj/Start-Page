@@ -60,14 +60,14 @@ html, body {
 		display: block;
 		text-decoration: none;
 		font-weight: bold;
-	}
 
-	a:hover {
-		text-decoration: underline;
-	}
+		&:hover {
+			text-decoration: underline;
+		}
 
-	a.cyan:hover {
-		color: $cyan;
+		.cyan:hover {
+			color: $cyan;
+		}
 	}
 }
 
