@@ -18,7 +18,7 @@
 html, body{
 	margin: 0;
 	padding: 0;
-	background-color: #141516;
+	background-color: #131C25;
 	color: #FFFFFF;
 	font-size: 14px;
 }
@@ -44,10 +44,10 @@ html, body{
 	-webkit-box-shadow: 1px 1px 20px 0px #000;
 	-moz-box-shadow: 1px 1px 20px 0px #000;
 	box-shadow: 1px 1px 20px 0px #000;
-	background-color: #282a36;
+	background-color: #202127;
 	margin: 4px;
 	padding: 8px;
-	border: 5px solid #282a36;
+	border: 5px solid #202127;
 }
 
 
@@ -65,8 +65,8 @@ html, body{
 	-webkit-box-flex: 1;
 	margin: 4px;
 	padding: 8px 8px 8px 8px;
-	background-color: #282a36;
-	border: 5px solid #282a36;
+	background-color: #202127;
+	border: 5px solid #202127;
 }
 
 .linksbox h3 {
@@ -97,7 +97,7 @@ h3 {
 }
 
 .cyan {
-	color: #9aedfe;
+	color: #1f9fb3;
 	padding: 0;
 }
 
@@ -109,7 +109,7 @@ h3 {
 .green {
 	font-weight: bold;
 	padding: 0;
-	color: #5af78e;
+	color: #58b129;
 }
 
 .pink {
