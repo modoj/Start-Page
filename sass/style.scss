@@ -1,0 +1,122 @@
+@import "components/fonts";
+@import "components/colors";
+
+* {
+	font-family: 'fira';
+	font-weight: lighter;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	background-color: $page_background_color;
+	color: $page_font_color;
+}
+
+#container {
+	position: absolute;
+	padding: 0, 20px;
+	top: 35%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 700px;
+	height: auto;
+}
+
+#header {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	background-color: $header_background_color;
+	margin: 4px;
+	padding: 8px;
+	border: 5px solid $header_border_color;
+}
+
+#links {
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+
+.linksbox {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	margin: 4px;
+	padding: 8px;
+	background-color: $linksbox_background_color;
+	border: 5px solid $linksbox_border_color;
+
+	h3 {
+		padding-bottom: 5px;
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	a.cyan:hover {
+		color: $cyan;
+	}
+
+	a.red:hover {
+		color: $red;
+	}
+}
+
+h3 {
+	font-size: 14px;
+	padding-bottom: 0;
+	margin: 0 0 8px 0;
+}
+
+.cyan {
+	color: $cyan;
+	padding: 0;
+}
+
+.blue {
+	color: $blue;
+	padding: 0;
+}
+
+.green {
+	font-weight: bold;
+	color: $green;
+	padding: 0;
+}
+
+.pink {
+	padding: 0;
+	color: $pink;
+}
+
+.red {
+	padding: 0;
+	color: $red;
+}
+
+form {
+	display: inline;
+}
+
+input {
+	display: inline;
+	background: none;
+	border: none;
+	color: $input_color;
+	width: 87%;
+	font-size: 14px;
+	margin-left: 10px;
+}

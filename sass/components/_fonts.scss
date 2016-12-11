@@ -1,0 +1,21 @@
+$base_font_path: "./fonts/";
+$retina_font_path: $base_font_path + "FiraCode-Retina.ttf";
+$light_font_path: $base_font_path + "FiraCode-Light.ttf";
+
+// Retina Font
+@font-face {
+	font-family: 'fira';
+	src: url($retina_font_path) format('ttf'),
+		local('FiraCode-Retina');
+	font-style: normal;
+	font-weight: normal;
+}
+
+// Light Font
+@font-face {
+	font-family: 'fira';
+	src: url($light_font_path) format('ttf'),
+		local('FiraCode-Light');
+	font-style: normal;
+	font-weight: lighter;
+}
