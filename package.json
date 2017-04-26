@@ -4,16 +4,16 @@
   "description": "My start page",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serialphotog/Start-Page.git"
+    "url": "git+https://github.com/modoj/Start-Page.git"
   },
   "keywords": [
     "Start",
     "Page"
   ],
   "bugs": {
-    "url": "https://github.com/serialphotog/Start-Page/issues"
+    "url": "https://github.com/modoj/Start-Page/issues"
   },
-  "homepage": "https://github.com/serialphotog/Start-Page#readme",
+  "homepage": "https://github.com/modoj/Start-Page#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
